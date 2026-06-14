@@ -24,7 +24,7 @@ startBtn.addEventListener("click", () => {
 
     }, 1000);
 
-    bgMusic.volume = 0.2;
+    bgMusic.volume = 0.4;
 
     bgMusic.play().catch(() => {
         console.log("Autoplay blocked");
